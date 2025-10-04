@@ -36,8 +36,13 @@ void print_value(uint64_t value){
         printf(")");
     }
     else {
-        printf("BAD VALE %" PRIu64, value);
+        printf("BAD VALUE %" PRIu64, value);
     }
+}
+
+void error(){
+    printf("ERROR");
+    exit(1);
 }
 
 int main(int argc, char **argv) {
