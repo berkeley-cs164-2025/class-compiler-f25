@@ -1,4 +1,4 @@
-The in-class compiler status after the class session on tail calls.  See compiler implementation notes for much more detail.
+The in-class compiler status after the second class session on parsing.  See compiler implementation notes for much more detail.
 
 To run:
 
@@ -6,11 +6,9 @@ To run:
 
 Inside utop:
 
-`open Cs164.Handparser;;`
+`open Cs164.Compile;;`
 
-```
-parse "( + 1 ( + 2 3 ) )";;
-```
+`test ();;`
 
 And remember that you must recompile the runtime if you make changes:
 
